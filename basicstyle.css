@@ -9,3 +9,32 @@
     flex-direction: row-reverse !important;
   
 } */
+
+.sidenav {
+    margin-left: 5%;
+    margin-top: 5%;
+    width: 15%;
+    float: left;
+}
+
+.ourstyle {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    width: 60%;
+    margin-top: 5%;
+    margin-left: 5%;
+    position: relative;
+    float: left;
+    background-color: lightgray;
+    height: 40%;
+    padding-bottom: 5%;
+}
+
+#actor {
+    width: 30%;
+}
+
+.sizerestriction {
+    width: 50%;
+}
