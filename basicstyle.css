@@ -1,0 +1,11 @@
+
+.myDirection {
+    flex-direction: row-reverse !important;
+}
+
+/*
+.myDirection2 {
+    display: flex;
+    flex-direction: row-reverse !important;
+  
+} */
