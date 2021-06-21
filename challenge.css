@@ -34,7 +34,7 @@
         margin: 0;
     }
 
-    .sizelimit > div > img{
+    .sizelimit > div > img, p{
         display: flex;
         width: 100%;
         margin: auto;
