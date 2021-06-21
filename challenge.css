@@ -1,0 +1,23 @@
+
+.mainbody {
+
+    margin:10%;
+    width:80%;
+    height: 50vh;
+
+
+
+}
+
+.myCarouselSize {
+
+    width:70%;
+    max-height:100%;
+    float:left;
+}
+
+.sidebar {
+
+    float:left;
+
+}
