@@ -1,4 +1,3 @@
-
 .mainbody {
 
     margin:10%;
@@ -9,15 +8,36 @@
 
 }
 
-.myCarouselSize {
-
-    width:70%;
-    max-height:100%;
-    float:left;
-}
-
 .sidebar {
 
     float:left;
 
+}
+
+.sizelimit > div > img,p{
+    display: flex;
+    width: 60%;
+    margin: auto;
+}
+
+.sizelimit > div > h3 {
+    display: flex;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 480px) {
+
+    .mainbody {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .sizelimit > div > img{
+        display: flex;
+        width: 100%;
+        margin: auto;
+    }
+    
 }
